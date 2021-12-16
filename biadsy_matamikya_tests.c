@@ -907,7 +907,6 @@ bool testMtmChangeProductAmountInOrder() {
     ASSERT_OR_DESTROY(MATAMIKYA_INVALID_AMOUNT == mtmChangeProductAmount(mtm,123, 1.999));
     ASSERT_OR_DESTROY(MATAMIKYA_INVALID_AMOUNT == mtmChangeProductAmount(mtm,116, 1.499));
 
-
     ASSERT_OR_DESTROY(MATAMIKYA_SUCCESS == mtmChangeProductAmountInOrder(mtm, order_1,4,-200));
     ASSERT_OR_DESTROY(MATAMIKYA_SUCCESS == mtmChangeProductAmountInOrder(mtm, order_1,4,0.502));
     ASSERT_OR_DESTROY(MATAMIKYA_SUCCESS == mtmChangeProductAmountInOrder(mtm, order_2,4,0.4989));
