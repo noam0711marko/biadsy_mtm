@@ -101,6 +101,9 @@ MatamikyaResult cancelOrderFromOrdersSet(Order_set order_set, const unsigned int
     if(to_remove==NULL){
         return MATAMIKYA_ORDER_NOT_EXIST;
     }
+    if(getOrderStatus(to_remove)){
+        return MATAMIKYA_ORDER_NOT_EXIST;
+    }
     setRemove(order_set->orders_set,(void*)to_remove);
     return MATAMIKYA_SUCCESS;
 }
