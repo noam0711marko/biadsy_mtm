@@ -3,7 +3,7 @@
 //
 
 #include "matamikya.h"
-#include "tests/test_utilities.h"
+#include "test_utilities.h"
 #include <assert.h>
 #include <stdlib.h>
 #include <string.h>
