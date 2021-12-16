@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="matamikya" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/tmp/tmp.qj8EqPYyil/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="matamikya">
+         <Option output="/tmp/tmp.qj8EqPYyil/cmake-build-debug/matamikya" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/tmp/tmp.qj8EqPYyil/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 matamikya" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="matamikya/fast">
+         <Option output="/tmp/tmp.qj8EqPYyil/cmake-build-debug/matamikya" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/tmp/tmp.qj8EqPYyil/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 matamikya/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/tmp/tmp.qj8EqPYyil/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/tmp/tmp.qj8EqPYyil/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/biadsy_matamikya_tests.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_orders.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_orders_set.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_print.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_product_in_order.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_products.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_products_set.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_validation_check.c">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_orders.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_orders_set.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_print.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_product_in_order.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_products.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_products_set.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/matamikya_validation_check.h">
+      </Unit>
+      <Unit filename="/tmp/tmp.qj8EqPYyil/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
